@@ -7,14 +7,23 @@ body {
 
 
 .main {
+  border-radius: 20px;
   margin-top: 18px;
   padding: 12px 5px;
   text-align: center;
   background: rgba(250,250,250,0.75);
+}
 
+.main h3 {
+  font-size: 28px;
+}
+
+.main p {
+  font-size: 20px;
 }
 
 .topnav {
+  border-radius: 20px;
   font-size: 20px;
   /*top: 500px; */
   margin-top: 10px;
@@ -38,9 +47,9 @@ body {
 .topnav h1 {
   text-align: center;
   color: black;
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: 4px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   margin: -10px 0px;
 }
 
@@ -48,7 +57,12 @@ body {
   text-align: center;
   color: black;
   letter-spacing: 2px;
-  margin: -10px 0px;
+  margin: -13px 0px;
+  padding: 1px 0px;
+}
+
+.topnav nav {
+  padding-top: 7px;
 }
 
 
@@ -66,7 +80,8 @@ body {
 }
 
 .mainavatar {
-  max-width: 200px;
-  max-height: 250px;
+  padding-top: 10px;
+  max-width: 175px;
+  max-height: 190px;
   border-radius: 15px;
 }
