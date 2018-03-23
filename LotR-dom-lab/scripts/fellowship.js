@@ -191,7 +191,7 @@ function forgeTheFellowShip() {
 
   // after each character is added make an alert that they have joined your party
 
-  alert(`The following heroes have joined your party:\n ${newCharList}`);
+  setTimeout(function() {alert(`The following heroes have joined your party:\n ${newCharList}`)}, 1000);
 
   console.log(theFellowship);
 
@@ -306,7 +306,7 @@ setTimeout(function() {
   for (let i=0; i < hobbits.length; i++) {
     theShire.appendChild(hobbits[i]);
   }
-  alert('The hobbits are now back in the shire.');
+  alert('The hobbits have returned to the shire.');
 }, 8000);
 
 
