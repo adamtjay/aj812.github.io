@@ -91,3 +91,7 @@ body {
   max-height: 190px;
   border-radius: 15px;
 }
+
+.portfolio a {
+  font-size: 25px;
+}
