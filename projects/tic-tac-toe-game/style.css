@@ -5,11 +5,11 @@ body {
 .container-fluid {
   margin: 0 auto;
   margin-top: 1%;
-  height: 80%;
+  height: 100%;
 }
 
 .gameboard {
-  max-width: 80%;
+  max-width: 70%;
   margin-top: 2%;
   margin: 0 auto;
   text-align: center;
@@ -40,6 +40,7 @@ td:empty:hover {
  td h1 {
   /*  display: block;*/
   /*position: absolute;*/
+  top: 3%;
     margin-left: auto;
     margin-right: auto;
     font-size: 50px;
@@ -51,12 +52,12 @@ td:empty:hover {
 td:empty:after {
   content: '';
   display: block;
-  padding: 20%;
+  padding: 12%;
 }
 td:after {
-  content: '';
+  /*content: '';*/
   display: block;
-  padding: 10%;
+  padding: 5%;
 }
 
 .table>tbody>tr>td, .table>tbody>tr>th,
