@@ -88,6 +88,10 @@ body {
   position: fixed;
 }
 
+.topnav a {
+  left: 50%;
+}
+
 .topnav a, strong {
   text-decoration: none;
   letter-spacing: 2px;
@@ -119,12 +123,13 @@ a:hover {
   font-family: 'Permanent Marker', cursive;
 }
 
+
 .bigletter {
   font-size: 60px;
 }
 
 .topnav h4 {
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   color: black;
   letter-spacing: 1px;
@@ -134,6 +139,9 @@ a:hover {
 
 .topnav nav {
   padding-top: 7px;
+  position: relative;
+  left: 2%;
+
 }
 
 .bottomnav {
@@ -178,6 +186,16 @@ a:hover {
 
 .main hr:first {
   position: relative;
-  left: -50%;
-  width: 110%;
+  left: -70%;
+  width: 100%;
+}
+
+.topnav > nav > hr  {
+  margin-left: -2%;
+  width: 99%;
+}
+
+.main > div > h3 > hr {
+  margin-left: -25%;
+  width: 150%;
 }
