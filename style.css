@@ -157,10 +157,10 @@ a:hover {
 
 
 .mainavatar {
-  padding-top: 2%;
+  margin-top: -1%;
   max-width: 175px;
   max-height: 190px;
-  border-radius: 15px;
+  border-radius: 35px;
 }
 
 .portfolio-content {
