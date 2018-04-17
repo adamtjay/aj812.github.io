@@ -10,7 +10,7 @@ body {
 .main {
   border-radius: 20px;
   /*margin-top: 5%;*/
-  margin-top: 16%;
+  margin-top: 14%;
   /*top: 80%;*/
   padding: 20px 15px;
   text-align: center;
@@ -19,6 +19,8 @@ body {
 }
 
 .main h3 {
+  display: relative;
+  margin-top: 3%;
   font-size: 30px;
 }
 
@@ -33,7 +35,7 @@ body {
 
 .topnav {
   border-radius: 20px;
-  font-size: 27px;
+  font-size: 22px;
   /*top: 500px; */
   background: linear-gradient(#B0E0E6, #fefefe);
 /*  background: linear-gradient(#fefefe, #B0E0E6, #fefefe);*/
@@ -56,23 +58,23 @@ body {
 
 .topnav a:hover, .bottomnav a:hover {
   padding: 5px 20px;
-  background-color: lightgrey;
+  /* background-color: lightgrey; */
   border-radius: 20px;
-  color: red;
+  /* color: red; */
 }
 
 a:hover {
   padding: 3px 10px;
-  background-color: lightgrey;
+  background-color: blue;
   border-radius: 20px;
-  color: red;
+  color: yellow;
 
 }
 
 .topnav h1 {
   text-align: center;
   color: black;
-  font-size: 60px;
+  font-size: 50px;
   letter-spacing: 5px;
   padding-bottom: 5px;
   margin: -20px 0px;
@@ -80,11 +82,11 @@ a:hover {
 }
 
 .bigletter {
-  font-size: 70px;
+  font-size: 60px;
 }
 
 .topnav h4 {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: black;
   letter-spacing: 1px;
@@ -106,7 +108,7 @@ a:hover {
 
 .bottomnav nav a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 2px;
   padding: 0px 30px 0px 30px
 }
@@ -117,7 +119,7 @@ a:hover {
 
 
 .mainavatar {
-  padding-top: 10px;
+  padding-top: 2%;
   max-width: 175px;
   max-height: 190px;
   border-radius: 15px;
@@ -134,4 +136,10 @@ a:hover {
 
 .portfolio-content h3 {
   font-size: 40px;
+}
+
+.main hr:first {
+  position: relative;
+  left: -50%;
+  width: 110%;
 }
