@@ -18,6 +18,13 @@ body {
   background: linear-gradient(#fefefe, #B0E0E6, #fefefe);
 }
 
+@media only screen and (max-width: 768px) {
+  .main {
+    margin-top: 80%;
+  }
+}
+
+
 .main h3 {
   display: relative;
   margin-top: 3%;
