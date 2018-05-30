@@ -1,5 +1,5 @@
 body {
-  max-width: 80%;
+  /* max-width: 80%; */
   margin: 0 auto;
   letter-spacing: 1px;
   font-family: 'Raleway', sans-serif;
@@ -15,7 +15,8 @@ body {
   padding: 20px 15px;
   text-align: center;
 /*  background: linear-gradient(0.25turn, #fefefe, #B0E0E6, #fefefe);*/
-  background: linear-gradient(#fefefe, #B0E0E6, #fefefe);
+  /* background: linear-gradient(#fefefe, #B0E0E6, #fefefe); */
+  background: white;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -72,15 +73,15 @@ body {
 }
 
 .topnav {
+  width: 100%;
   border-radius: 20px;
   font-size: 22px;
   /*top: 500px; */
-  background: linear-gradient(#B0E0E6, #fefefe);
+  background: linear-gradient(to bottom right, #B0E0E6, #fefefe);
 /*  background: linear-gradient(#fefefe, #B0E0E6, #fefefe);*/
   /*background: url(http://d24wuq6o951i2g.cloudfront.net/img/events/id/241/2410214/assets/350.Minneapolis-Backdrop.jpg);*/
   text-align: center;
   display: block;
-  width: 80%;
   /*margin-top: 10px;
   position: fixed;*/
   top: 0;
